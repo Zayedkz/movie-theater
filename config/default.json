@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://khalil:kfh123@movie-theater-tsycn.mongodb.net/test?retryWrites=true",
+    "jwtKey": "JwtSecretKey19191919",
+    "movie-api": "705feaf3f8411356341f75e80a888d51"
+}
