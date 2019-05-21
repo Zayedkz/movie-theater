@@ -4,7 +4,7 @@ import { GET_MOVIES, MOVIES_LOADING, SELECT_MOVIE, GET_GENRES, MOVIE_GENRES } fr
 export const getMovies = () => dispatch => {
     dispatch(setMoviesLoading());
     axios
-        .get('http://moviet.herokuapp.com/api/movies')
+        .get('https://moviet.herokuapp.com/api/movies')
         .then(res => {
             dispatch({
                 type: GET_MOVIES,
@@ -15,7 +15,7 @@ export const getMovies = () => dispatch => {
 
 export const getGenres = () => dispatch => {
     axios
-        .get('http://moviet.herokuapp.com/api/movies/genre')
+        .get('https://moviet.herokuapp.com/api/movies/genre')
         .then(res => {
             dispatch({
                 type: GET_GENRES,
