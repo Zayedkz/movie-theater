@@ -1,2 +1,2 @@
-# movie-theater
+# Movie theater
 App deployed at: https://moviet.herokuapp.com/
