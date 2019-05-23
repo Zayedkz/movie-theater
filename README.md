@@ -4,6 +4,6 @@ MovieT is a full stack MERN app that utilizes [The Movie Database (TMDb) API](ht
  # Demo
  [Movie Theater - Live Demo](https://moviet.herokuapp.com/)
  
- #Tools
+ # Tools
  Front-end: React, Redux, Bootstrap, Axios
  Back-end: Node.js, Express, Mongoose, Jsonwebtoken, Bcryptjs
